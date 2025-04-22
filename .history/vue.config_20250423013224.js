@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service');
 module.exports = {
   publicPath:
-    process.env.NODE_ENV === 'production' ? '/hellovuejs/' : '/',
+    process.env.NODE_ENV === 'production' ? '/your-repository-name/' : '/',
   ...defineConfig({
     transpileDependencies: true,
   }),
